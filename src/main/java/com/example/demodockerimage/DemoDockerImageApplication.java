@@ -15,6 +15,6 @@ public class DemoDockerImageApplication {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Hello docker ";
+		return "Hello docker image maker";
 	}
 }
